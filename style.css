@@ -1,4 +1,4 @@
-/*CSS below*/
+/* CSS below */
 h1 {color:red;
 /*background-color: yellow; */}
 
@@ -9,6 +9,7 @@ body
 	font-size: 18px;
   margin: 0;
 }
+
 a{ color: #f38181;
 	text-decoration:none;}
 
@@ -96,4 +97,9 @@ h1, h2, h3 {
   grid-gap: 16px;
 }
 
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
 
