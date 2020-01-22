@@ -93,13 +93,10 @@ h1, h2, h3 {
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 16px;
 }
 
-@media (max-width: 800px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
 
